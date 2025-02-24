@@ -1,7 +1,7 @@
 {
-    "dependencies": ["./my_agent"],
+    "dependencies": ["./chefgpt"],
     "graphs": {
-      "agent": "./my_agent/agent.py:compiled_graph"
+      "agent": "./chefgpt/agent.py:compiled_graph"
     },
     "env": ".env"
 }
